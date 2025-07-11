@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aap_ka_dost
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Aap-Ka-Dost
+>>>>>>> c612b56226df2cd95e680a0bcf711b0bd5f3336d
