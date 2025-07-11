@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "800241974050",
+    "project_id": "aap-ka-dost-b8d1e",
+    "storage_bucket": "aap-ka-dost-b8d1e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800241974050:android:db4d37e545bb0e27ec837b",
+        "android_client_info": {
+          "package_name": "com.example.aap_ka_dost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUdDnMvn5pWrCiOG7o1Jgsn2dkO2x45ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

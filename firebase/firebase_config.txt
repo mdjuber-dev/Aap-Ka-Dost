@@ -1,0 +1,1 @@
+Paste your Firebase configuration (google-services.json) here.
