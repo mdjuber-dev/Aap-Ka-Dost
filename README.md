@@ -3,18 +3,6 @@
 
 A new Flutter project.
 
-## Getting Started
+Aap Ka Dost is a web-based platform designed to offer comfort, emotional guidance, and motivation to users going through stress, anxiety, or everyday challenges. The idea is to create a safe digital space where users feel supported — just like a true friend would be.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Aap-Ka-Dost
->>>>>>> c612b56226df2cd95e680a0bcf711b0bd5f3336d
+Whether it's mental clarity, motivational content, or access to helpful resources, Aap Ka Dost aims to be a reliable companion in your daily life.
