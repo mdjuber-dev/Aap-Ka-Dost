@@ -1,4 +1,4 @@
-
+📱 Aap Ka Dost
 📱 Aap Ka Dost – Your Mental Wellness Companion
 "Aap Ka Dost" is your friendly mental health companion powered by Gemini AI. Whether you're feeling happy, sad, neutral, or angry – this app is always here to talk to you and support you.
 
@@ -44,7 +44,7 @@ Clone the repo
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/aap-ka-dost.git
+git clone https://github.com/mdjuber-dev/aap-ka-dost.git
 cd aap-ka-dost
 Create a .env file
 
