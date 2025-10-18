@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'chatbot_screen.dart';
 import 'journal_screen.dart';
+import 'coin_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -144,6 +145,38 @@ class _HomeScreenState extends State<HomeScreen> {
                   backgroundColor: Colors.teal,
                   padding:
                       const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 12),
+
+              // Demo navigation to CryptoPulse Coin Detail
+              ElevatedButton.icon(
+                icon: const Icon(Icons.currency_bitcoin),
+                label: const Text("Open CryptoPulse (BTC)"),
+                onPressed: () {
+                  Navigator.of(context).push(
+                    PageRouteBuilder(
+                      pageBuilder: (_, __, ___) => const CoinDetailScreen(coinId: 'bitcoin'),
+                      transitionsBuilder: (_, animation, __, child) {
+                        final offsetTween = Tween<Offset>(begin: const Offset(0, 0.05), end: Offset.zero)
+                            .chain(CurveTween(curve: Curves.easeOutCubic));
+                        final fadeTween = Tween<double>(begin: 0, end: 1)
+                            .chain(CurveTween(curve: Curves.easeOutCubic));
+                        return FadeTransition(
+                          opacity: animation.drive(fadeTween),
+                          child: SlideTransition(position: animation.drive(offsetTween), child: child),
+                        );
+                      },
+                    ),
+                  );
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue,
+                  padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
